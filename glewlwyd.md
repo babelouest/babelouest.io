@@ -13,27 +13,29 @@ Glewlwyd is a Single Sign-on server with multiple factor authentication for OAut
 ![GitHub](https://img.shields.io/github/license/babelouest/glewlwyd?style=plastic)
 ![CodeQL](https://github.com/babelouest/glewlwyd/workflows/CodeQL/badge.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3475/badge)](https://bestpractices.coreinfrastructure.org/projects/3475)
-
-You can test Glewlwyd's funtionalities on the [online demo](https://glewlwyd.babelouest.io/).
-
+[![online demo](https://img.shields.io/badge/-Online%20Demo-blue)](/glewlwyd-demo)
 [![User documentation](https://img.shields.io/badge/-User%20documentation-green)](/user-profile)
 
-Functionalities available:
-- [Register a new user](https://glewlwyd.babelouest.io/index.html?register=regis)
-- [Register authentication factors (profile page)](https://glewlwyd.babelouest.io/):
-  - External provider (Google, GitHub or GitLab) [(documentation)](/user-profile#external-oauth2oidc-login)
-  - HOTP or TOTP [(documentation)](/user-profile#otp)
-  - Webauthn device (FIDO2, Android or Apple phone or tablet) [(documentation)](/user-profile#webauthn)
-- [Test authentication factors](/test-mfa/)
-- Register clients
+**[Online demo](/glewlwyd-demo)** functionalities available:
+
+**[Register a new user](https://glewlwyd.babelouest.io/index.html?register=regis)**, authentication factors allowed:
+- Password [(documentation)](/user-profile#update-password)
+- External provider (Google, GitHub or GitLab) [(documentation)](/user-profile#external-oauth2oidc-login)
+- HOTP or TOTP [(documentation)](/user-profile#otp)
+- Webauthn device (FIDO2, Android or Apple phone or tablet) [(documentation)](/user-profile#webauthn)
+
+**[Test multiple factor authentication](/glewlwyd-demo)**
 
 **Beware!**
+
 Due to the curse of Culhwch and Olwen, the online demo has a limited memory and tends to permanently remove all registered users and clients once every week, on the day of the sun, at Dusk.
-You might be careful with that!
+Don't expect your registration data to be too persistent!
 
 ![demo](/img/login-nopassword.png)
 
 <hr/>
+
+**Contributions are welcome!**
 
 [![Install documentation](https://img.shields.io/badge/-Install%20documentation-green)](https://github.com/babelouest/glewlwyd/blob/master/docs/INSTALL.md)
 [![Open an issue](https://img.shields.io/badge/-Open%20an%20issue-green)](https://github.com/babelouest/glewlwyd/issues)

@@ -1,0 +1,54 @@
+---
+layout: default
+title: Glewlwyd Authentication Factors Demo
+permalink: /glewlwyd-demo/
+---
+
+<div class="list-group">
+  <a href="https://glewlwyd.babelouest.io/index.html?register=regis&callback_url=https%3A%2F%2Fbabelouest.io%2Fglewlwyd-demo%2F" class="list-group-item list-group-item-action bg-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h3 class="mb-1 titre text-white">
+        Register a new user
+      </h3>
+    </div>
+    <p class="mb-1 text-white">
+      Register with a password, and additional authentication factors
+    </p>
+  </a>
+  <hr/>
+  <a href="https://glewlwyd.babelouest.io/" class="list-group-item list-group-item-action bg-info">
+    <div class="d-flex w-100 justify-content-between">
+      <h3 class="mb-1 titre text-white">
+        User profile page
+      </h3>
+    </div>
+    <p class="mb-1 text-white">
+      Update password and additional authentication factors
+    </p>
+  </a>
+  <hr/>
+  <a href="https://glewlwyd.babelouest.io/api/oidc/auth?response_type=none&client_id=test_mfa&scope=openid+mfa-1&nonce=xyz1234&redirect_uri=https://babelouest.io/glewlwyd-demo/" class="list-group-item list-group-item-action bg-primary">
+    <div class="d-flex w-100 justify-content-between">
+      <h3 class="mb-1 titre text-white">
+        Authentification with one factor
+      </h3>
+    </div>
+    <p class="mb-1 text-white">
+      External provider authentication, OTP, Webauthn
+    </p>
+  </a>
+  <hr/>
+  <a href="https://glewlwyd.babelouest.io/api/oidc/auth?response_type=none&client_id=test_mfa&scope=openid+mfa-2&nonce=xyz1234&redirect_uri=https://babelouest.io/glewlwyd-demo/" class="list-group-item list-group-item-action bg-primary">
+    <div class="d-flex w-100 justify-content-between">
+      <h3 class="mb-1 titre text-white">
+        Authentification with two factors
+      </h3>
+    </div>
+    <p class="mb-1 text-white">
+      Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. Can stream large amount of data, integrate JSON data with Jansson, and create websocket services
+    </p>
+  </a>
+</div>
+
+<a href="{{ "glewlwyd" | relative_url }}" class="badge badge-secondary">Back to Glewlwyd page</a>
+<a href="{{ "user-profile" | relative_url }}" class="badge badge-secondary">User documentation</a>
