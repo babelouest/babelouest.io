@@ -43,6 +43,8 @@ Ulfius provides the following functionalities you can use in your webservices:
 [![Doxygen API documentation](https://img.shields.io/badge/-Doxygen%20API%20documentation-green)](https://babelouest.github.io/ulfius/)
 [![Open an issue](https://img.shields.io/badge/-Open%20an%20issue-green)](https://github.com/babelouest/ulfius/issues)
 
+Visit the IRC channel #ulfius on the [Libera.​Chat](https://libera.chat/) network.
+
 [To the tutorials list](/ulfius-tutorials)
 
 ## Articles tagged with `ulfius`:

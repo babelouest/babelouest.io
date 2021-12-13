@@ -5,7 +5,10 @@
       <div class="container-fluid">
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
-        <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
+          <img src="/img/c-cc-by.png" alt="title-logo" />
+          {{ site.title | escape }}
+        </a>
         {%- if page_paths -%}
           <button class="navbar-toggler"
                   type="button"

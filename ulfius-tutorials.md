@@ -8,7 +8,7 @@ permalink: /ulfius-tutorials/
 
 # Ulfius tutorials
 
-If you have other ideas for tutorials or extended documentation, let me know in the [discussion section](https://github.com/babelouest/ulfius/discussions) on GitHub, or send me an [e-mail](mailto:info@babelouest.io)
+If you have other ideas for tutorials or extended documentation, let me know in the [discussion section](https://github.com/babelouest/ulfius/discussions) on GitHub, or send me an [e-mail](mailto:mail@babelouest.io)
 <hr/>
 <div>
   <ul class="list-group">

@@ -146,8 +146,8 @@ int callback_delete_book(const struct _u_request * request, struct _u_response *
 }
 {% endhighlight %}
 
-### Download this source code
+### Download source code
 
 The source code for this program can be found at this address: [/src/ulfius-crud-1.c](/src/ulfius-crud-1.c).
 
-To compile this program, run `gcc -o ulfius-crud-1 ulfius-crud-1.c -lulfius -ljansson -lorcania`.
+To compile this program, run `gcc -o ulfius-crud-1 ulfius-crud-1.c -ljansson -lorcania -lulfius`.

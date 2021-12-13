@@ -40,6 +40,8 @@ Don't expect your registration data to be too persistent!
 [![Install documentation](https://img.shields.io/badge/-Install%20documentation-green)](https://github.com/babelouest/glewlwyd/blob/master/docs/INSTALL.md)
 [![Open an issue](https://img.shields.io/badge/-Open%20an%20issue-green)](https://github.com/babelouest/glewlwyd/issues)
 
+Visit the IRC channel #glewlwyd on the [Libera.​Chat](https://libera.chat/) network.
+
 <hr/>
 
 ## Articles tagged with `glewlwyd`:

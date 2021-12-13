@@ -1,6 +1,8 @@
 /**
- * Author: Nicolas Mora <info@babelouest.io>
+ * Author: Nicolas Mora <mail@babelouest.io>
  * License: MIT
+ * 
+ * gcc -o ulfius-crud-1 ulfius-crud-1.c -lulfius -ljansson -lorcania
  */
 #include <stdio.h>
 #include <jansson.h>
