@@ -31,6 +31,8 @@ Glewlwyd is a Single Sign-on server with multiple factor authentication for OAut
 Due to the curse of Culhwch and Olwen, the online demo has a limited memory and tends to permanently remove all registered users and clients once every week, on the day of the sun, at Dusk.
 Don't expect your registration data to be too persistent!
 
+If the account is not removed yet, you can manually remove it in the [profile page](https://glewlwyd.babelouest.io/), by clicking on the `Delete account` red button.
+
 ![demo](/img/login-nopassword.png)
 
 <hr/>
