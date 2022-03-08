@@ -26,6 +26,8 @@ Glewlwyd is a Single Sign-on server with multiple factor authentication for OAut
 
 **[Test multiple factor authentication](/glewlwyd-demo)**
 
+**[Register and run clients](https://esras.babelouest.io/index.html)**
+
 **Beware!**
 
 Due to the curse of Culhwch and Olwen, the online demo has a limited memory and tends to permanently remove all registered users and clients once every week, on the day of the sun, at Dusk.
